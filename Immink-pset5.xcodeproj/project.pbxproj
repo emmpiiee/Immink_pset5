@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		B56125011CEF3CB30067576F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56125001CEF3CB30067576F /* AppDelegate.swift */; };
-		B56125031CEF3CB30067576F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56125021CEF3CB30067576F /* ViewController.swift */; };
-		B56125061CEF3CB30067576F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56125041CEF3CB30067576F /* Main.storyboard */; };
 		B56125081CEF3CB30067576F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B56125071CEF3CB30067576F /* Assets.xcassets */; };
 		B561250B1CEF3CB30067576F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56125091CEF3CB30067576F /* LaunchScreen.storyboard */; };
 		B56125161CEF3CB30067576F /* Immink_pset5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56125151CEF3CB30067576F /* Immink_pset5Tests.swift */; };
 		B56125211CEF3CB30067576F /* Immink_pset5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56125201CEF3CB30067576F /* Immink_pset5UITests.swift */; };
+		B5F3D2D91CEF48D8000A9E10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F3D2D71CEF48D8000A9E10 /* ViewController.swift */; };
+		B5F3D2DE1CEF49E6000A9E10 /* RandomQuoteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F3D2DD1CEF49E6000A9E10 /* RandomQuoteController.swift */; };
+		B5F3D2E01CEF4A18000A9E10 /* FindCharacterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F3D2DF1CEF4A18000A9E10 /* FindCharacterController.swift */; };
+		B5F3D2E21CEF4A40000A9E10 /* FindEpisodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F3D2E11CEF4A40000A9E10 /* FindEpisodeController.swift */; };
+		B5F3D2E71CEF67F5000A9E10 /* RandomQuoteShowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F3D2E61CEF67F5000A9E10 /* RandomQuoteShowController.swift */; };
+		B5F3D2EA1CF05DF2000A9E10 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F3D2E91CF05DF2000A9E10 /* Manager.swift */; };
+		B5F3E3931CF0F80A001491EE /* FindEpisodeControllerShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F3E3921CF0F80A001491EE /* FindEpisodeControllerShow.swift */; };
+		B5F696A71CF0B6FA0032FA5F /* FindCharacterControllerShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F696A61CF0B6FA0032FA5F /* FindCharacterControllerShow.swift */; };
+		B5F696AA1CF0EBFC0032FA5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5F696A81CF0EBFC0032FA5F /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +43,6 @@
 /* Begin PBXFileReference section */
 		B56124FD1CEF3CB30067576F /* Immink-pset5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Immink-pset5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B56125001CEF3CB30067576F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B56125021CEF3CB30067576F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B56125051CEF3CB30067576F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B56125071CEF3CB30067576F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B561250A1CEF3CB30067576F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B561250C1CEF3CB30067576F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +52,15 @@
 		B561251C1CEF3CB30067576F /* Immink-pset5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Immink-pset5UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B56125201CEF3CB30067576F /* Immink_pset5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Immink_pset5UITests.swift; sourceTree = "<group>"; };
 		B56125221CEF3CB30067576F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5F3D2D71CEF48D8000A9E10 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../../../../.Trash/ViewController.swift; sourceTree = "<group>"; };
+		B5F3D2DD1CEF49E6000A9E10 /* RandomQuoteController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomQuoteController.swift; sourceTree = "<group>"; };
+		B5F3D2DF1CEF4A18000A9E10 /* FindCharacterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindCharacterController.swift; sourceTree = "<group>"; };
+		B5F3D2E11CEF4A40000A9E10 /* FindEpisodeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindEpisodeController.swift; sourceTree = "<group>"; };
+		B5F3D2E61CEF67F5000A9E10 /* RandomQuoteShowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomQuoteShowController.swift; sourceTree = "<group>"; };
+		B5F3D2E91CF05DF2000A9E10 /* Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		B5F3E3921CF0F80A001491EE /* FindEpisodeControllerShow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindEpisodeControllerShow.swift; sourceTree = "<group>"; };
+		B5F696A61CF0B6FA0032FA5F /* FindCharacterControllerShow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FindCharacterControllerShow.swift; path = ../FindCharacterControllerShow.swift; sourceTree = "<group>"; };
+		B5F696A91CF0EBFC0032FA5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +111,11 @@
 		B56124FF1CEF3CB30067576F /* Immink-pset5 */ = {
 			isa = PBXGroup;
 			children = (
-				B56125001CEF3CB30067576F /* AppDelegate.swift */,
-				B56125021CEF3CB30067576F /* ViewController.swift */,
-				B56125041CEF3CB30067576F /* Main.storyboard */,
+				B5F3D2DA1CEF48F3000A9E10 /* Model */,
+				B5F3D2DC1CEF4909000A9E10 /* Controller */,
+				B5F3D2DB1CEF48FE000A9E10 /* View */,
 				B56125071CEF3CB30067576F /* Assets.xcassets */,
-				B56125091CEF3CB30067576F /* LaunchScreen.storyboard */,
+				B56125001CEF3CB30067576F /* AppDelegate.swift */,
 				B561250C1CEF3CB30067576F /* Info.plist */,
 			);
 			path = "Immink-pset5";
@@ -123,6 +137,61 @@
 				B56125221CEF3CB30067576F /* Info.plist */,
 			);
 			path = "Immink-pset5UITests";
+			sourceTree = "<group>";
+		};
+		B5F3D2DA1CEF48F3000A9E10 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B5F3D2E91CF05DF2000A9E10 /* Manager.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B5F3D2DB1CEF48FE000A9E10 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B56125091CEF3CB30067576F /* LaunchScreen.storyboard */,
+				B5F696A81CF0EBFC0032FA5F /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B5F3D2DC1CEF4909000A9E10 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B5F3D2D71CEF48D8000A9E10 /* ViewController.swift */,
+				B5F3D2E31CEF678F000A9E10 /* RandomQuoteControllers */,
+				B5F3D2E51CEF67B9000A9E10 /* FindEpisodeController */,
+				B5F3D2E41CEF67A6000A9E10 /* FindCharacterControllers */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		B5F3D2E31CEF678F000A9E10 /* RandomQuoteControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B5F3D2DD1CEF49E6000A9E10 /* RandomQuoteController.swift */,
+				B5F3D2E61CEF67F5000A9E10 /* RandomQuoteShowController.swift */,
+			);
+			name = RandomQuoteControllers;
+			sourceTree = "<group>";
+		};
+		B5F3D2E41CEF67A6000A9E10 /* FindCharacterControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B5F3D2DF1CEF4A18000A9E10 /* FindCharacterController.swift */,
+				B5F696A61CF0B6FA0032FA5F /* FindCharacterControllerShow.swift */,
+			);
+			name = FindCharacterControllers;
+			sourceTree = "<group>";
+		};
+		B5F3D2E51CEF67B9000A9E10 /* FindEpisodeController */ = {
+			isa = PBXGroup;
+			children = (
+				B5F3D2E11CEF4A40000A9E10 /* FindEpisodeController.swift */,
+				B5F3E3921CF0F80A001491EE /* FindEpisodeControllerShow.swift */,
+			);
+			name = FindEpisodeController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +298,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5F696AA1CF0EBFC0032FA5F /* Main.storyboard in Resources */,
 				B561250B1CEF3CB30067576F /* LaunchScreen.storyboard in Resources */,
 				B56125081CEF3CB30067576F /* Assets.xcassets in Resources */,
-				B56125061CEF3CB30067576F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +325,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B56125031CEF3CB30067576F /* ViewController.swift in Sources */,
+				B5F3D2D91CEF48D8000A9E10 /* ViewController.swift in Sources */,
+				B5F3D2DE1CEF49E6000A9E10 /* RandomQuoteController.swift in Sources */,
+				B5F3E3931CF0F80A001491EE /* FindEpisodeControllerShow.swift in Sources */,
+				B5F3D2E71CEF67F5000A9E10 /* RandomQuoteShowController.swift in Sources */,
+				B5F3D2E21CEF4A40000A9E10 /* FindEpisodeController.swift in Sources */,
+				B5F3D2EA1CF05DF2000A9E10 /* Manager.swift in Sources */,
+				B5F696A71CF0B6FA0032FA5F /* FindCharacterControllerShow.swift in Sources */,
+				B5F3D2E01CEF4A18000A9E10 /* FindCharacterController.swift in Sources */,
 				B56125011CEF3CB30067576F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,20 +369,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B56125041CEF3CB30067576F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B56125051CEF3CB30067576F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B56125091CEF3CB30067576F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				B561250A1CEF3CB30067576F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B5F696A81CF0EBFC0032FA5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5F696A91CF0EBFC0032FA5F /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -484,6 +560,7 @@
 				B56125271CEF3CB30067576F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B56125281CEF3CB30067576F /* Build configuration list for PBXNativeTarget "Immink-pset5Tests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +569,7 @@
 				B561252A1CEF3CB30067576F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B561252B1CEF3CB30067576F /* Build configuration list for PBXNativeTarget "Immink-pset5UITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +578,7 @@
 				B561252D1CEF3CB30067576F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
