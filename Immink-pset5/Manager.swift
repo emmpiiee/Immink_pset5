@@ -19,7 +19,7 @@ class TodoManager {
     var infoCharacter = String ()
     var episodeString = String ()
     var seasonString = String ()
-
+    
     var jsonQuotes = NSDictionary()
     var jsonCharacterInfo = NSDictionary()
     var jsonEpisodeInfo = NSDictionary()

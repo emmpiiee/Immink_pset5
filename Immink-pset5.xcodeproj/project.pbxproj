@@ -12,7 +12,6 @@
 		B561250B1CEF3CB30067576F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56125091CEF3CB30067576F /* LaunchScreen.storyboard */; };
 		B56125161CEF3CB30067576F /* Immink_pset5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56125151CEF3CB30067576F /* Immink_pset5Tests.swift */; };
 		B56125211CEF3CB30067576F /* Immink_pset5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56125201CEF3CB30067576F /* Immink_pset5UITests.swift */; };
-		B5F3D2D91CEF48D8000A9E10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F3D2D71CEF48D8000A9E10 /* ViewController.swift */; };
 		B5F3D2DE1CEF49E6000A9E10 /* RandomQuoteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F3D2DD1CEF49E6000A9E10 /* RandomQuoteController.swift */; };
 		B5F3D2E01CEF4A18000A9E10 /* FindCharacterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F3D2DF1CEF4A18000A9E10 /* FindCharacterController.swift */; };
 		B5F3D2E21CEF4A40000A9E10 /* FindEpisodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F3D2E11CEF4A40000A9E10 /* FindEpisodeController.swift */; };
@@ -52,7 +51,6 @@
 		B561251C1CEF3CB30067576F /* Immink-pset5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Immink-pset5UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B56125201CEF3CB30067576F /* Immink_pset5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Immink_pset5UITests.swift; sourceTree = "<group>"; };
 		B56125221CEF3CB30067576F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B5F3D2D71CEF48D8000A9E10 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../../../../.Trash/ViewController.swift; sourceTree = "<group>"; };
 		B5F3D2DD1CEF49E6000A9E10 /* RandomQuoteController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomQuoteController.swift; sourceTree = "<group>"; };
 		B5F3D2DF1CEF4A18000A9E10 /* FindCharacterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindCharacterController.swift; sourceTree = "<group>"; };
 		B5F3D2E11CEF4A40000A9E10 /* FindEpisodeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindEpisodeController.swift; sourceTree = "<group>"; };
@@ -159,7 +157,6 @@
 		B5F3D2DC1CEF4909000A9E10 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				B5F3D2D71CEF48D8000A9E10 /* ViewController.swift */,
 				B5F3D2E31CEF678F000A9E10 /* RandomQuoteControllers */,
 				B5F3D2E51CEF67B9000A9E10 /* FindEpisodeController */,
 				B5F3D2E41CEF67A6000A9E10 /* FindCharacterControllers */,
@@ -325,7 +322,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5F3D2D91CEF48D8000A9E10 /* ViewController.swift in Sources */,
 				B5F3D2DE1CEF49E6000A9E10 /* RandomQuoteController.swift in Sources */,
 				B5F3E3931CF0F80A001491EE /* FindEpisodeControllerShow.swift in Sources */,
 				B5F3D2E71CEF67F5000A9E10 /* RandomQuoteShowController.swift in Sources */,
