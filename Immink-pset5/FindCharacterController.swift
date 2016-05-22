@@ -51,12 +51,7 @@ class FindCharacterController: UIViewController {
                     let warningMessage = "Use correct spelling"
                     return self.viewDidLoad()
                 }
-//                let count = jsonCharactersString.count
-//                
-//                if (count == 0) {
-//                    return self.viewDidLoad()
-//                }
-//                
+              
                 TodoManager.sharedInstance.jsonCharacterInfo = jsonCharactersString[0] as! NSDictionary
                 
                 print("DICT", TodoManager.sharedInstance.jsonCharacterInfo["name"]!)
